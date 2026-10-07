@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "chronoseq"
+version = "0.1.0"
+description = "ChronoSeq: A Decentralized Layer-2 Sequencer with DAG Mempool and VDF Ordering"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+authors = [
+    {name = "Zhongli Dong", email = "zhongli.dong@sydney.edu.au"},
+    {name = "Young Choon Lee", email = "young.lee@mq.edu.au"},
+    {name = "Albert Y. Zomaya", email = "albert.zomaya@sydney.edu.au"},
+]
+keywords = ["blockchain", "layer-2", "sequencer", "DAG", "VDF", "MEV"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Security :: Cryptography",
+]
+dependencies = []
+
+[project.optional-dependencies]
+bench = [
+    "numpy>=1.24",
+    "matplotlib>=3.7",
+    "pandas>=2.0",
+]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov>=4.0",
+]
+all = ["chronoseq[bench,dev]"]
+
+[tool.setuptools.packages.find]
+include = ["chronoseq*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

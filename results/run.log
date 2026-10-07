@@ -1,0 +1,13 @@
+consistency: 60 runs in 13s
+latency: 50 runs in 94s
+load: 100 runs in 76s
+microblock: 120 runs in 49s
+fairness: 30 runs in 68s
+race: 20 runs in 17s
+frontrun: 40 runs in 31s
+censor: 50 runs in 12s
+withhold: 50 runs in 10s
+
+real	6m10.218s
+user	11m37.573s
+sys	0m24.470s

@@ -1,0 +1,14 @@
+component,mean_ms,ci_ms
+access,7.9,0.0
+fill,25.8,0.0
+certify,173.6,0.0
+await_cut,216.3,0.2
+agreement,234.0,0.2
+vdf_order,672.0,0.1
+cut_interval,324.3,0.7
+agreement_median,243.2,0.2
+w_emp_p50,790.2,0.2
+w_emp_max,804.5,0.6
+ref_spread_max,84.5,0.6
+acc_lag_max,228.0,1.6
+view_changes,0.0,0.0

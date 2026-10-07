@@ -1,0 +1,9 @@
+op,q,ms
+sign,1,0.3799
+verify,1,1.2395
+aggregate,22,0.0415
+fast_aggregate_verify,22,1.2544
+aggregate,43,0.0925
+fast_aggregate_verify,43,1.2601
+aggregate,86,0.1681
+fast_aggregate_verify,86,1.4657

@@ -1,0 +1,6 @@
+metric,ChronoSeq,SingleLeader,notes
+Sustained TPS,143485,105217,16 lanes
+p50 latency (ms),4,9,End-to-end
+p95 latency (ms),7,10,End-to-end
+p99 latency (ms),7,11,End-to-end
+Fairness (Jain),0.99,1.0,Uniform workload

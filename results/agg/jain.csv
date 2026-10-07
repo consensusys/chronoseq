@@ -1,0 +1,4 @@
+workload,runs,jain_FIFO,jain_FIFO_ci,jain_LeaderBFT,jain_LeaderBFT_ci,jain_DAGBFT,jain_DAGBFT_ci,jain_ChronoSeq,jain_ChronoSeq_ci
+uniform,10,0.8798,0.0001,0.9991,0.0,0.9995,0.0,0.9999,0.0
+zipf,10,0.8795,0.0004,0.9983,0.0001,0.9991,0.0,0.9998,0.0
+defi,10,0.88,0.0004,0.9986,0.0,0.9993,0.0,0.9998,0.0

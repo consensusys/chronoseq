@@ -1,0 +1,11 @@
+op,rep,us_per_op
+verify,0,33.63
+recover,0,40.23
+verify,1,33.53
+recover,1,39.91
+verify,2,41.78
+recover,2,51.75
+verify,3,31.19
+recover,3,58.42
+verify,4,30.39
+recover,4,37.21
