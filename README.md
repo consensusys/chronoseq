@@ -60,8 +60,6 @@ Clients ──→ [ DAG Mempool ] ──→ [ VDF Beacon ] ──→ [ Ticket As
 ### Installation
 
 ```bash
-git clone https://github.com/andrewdong14/chronoseq.git
-cd chronoseq
 
 # Install in editable mode (core library — zero dependencies)
 pip install -e .
